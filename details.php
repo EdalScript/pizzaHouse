@@ -31,7 +31,7 @@ if (isset($_GET['id'])) {
 <html>
 
 <?php include('templates/header.php'); ?>
-<div class="container center">
+<div class="container center gray-text">
     <?php if ($pizza) { ?>
         <h4><?php echo htmlspecialchars($pizza['title']); ?></h4>
         <p>Created by: <?php echo htmlspecialchars($pizza['email']); ?></p>
